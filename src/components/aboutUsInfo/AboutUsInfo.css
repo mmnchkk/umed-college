@@ -1,0 +1,87 @@
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 310px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    color: #363636;
+}
+
+.about-us-info h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.31;
+}
+
+.about-us-info p {
+    margin-top: -50px;
+    line-height: 1.33;
+    font-size: 14px;
+}
+
+@media(max-width: 359px) {
+    .about-us-info {
+        width: 220px;
+        height: 150px;
+        padding: 70px 20px 0px 20px;
+    }
+    
+    .about-us-info h5 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    .about-us-info p {
+        margin-top: -30px;
+        line-height: 15px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 590px) and (min-width: 360px) {
+    .about-us-info {
+        width: 240px;
+        height: 160px;
+        padding: 40px 20px;
+    }
+    
+    .about-us-info h5 {
+        margin-top: 110px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    .about-us-info p {
+        margin-top: -40px;
+        margin-bottom: -10px;
+        line-height: 15px;
+        font-size: 14px;
+    }
+}
+
+@media ( max-width: 912px ) and (min-width: 591px) {
+    .about-us-info {
+        width: 490px;
+        height: 60px;
+        padding: 40px 20px;
+    }
+    
+    .about-us-info h5 {
+        margin-top: 110px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    .about-us-info p {
+        margin-top: -40px;
+        margin-bottom: -10px;
+        line-height: 15px;
+        font-size: 14px;
+    }
+}

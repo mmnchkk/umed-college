@@ -1,0 +1,148 @@
+.conditions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.conditions-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E419D;
+    width: 850px;
+    height: 560px;
+    border-radius: 90px;
+    padding: 10px 60px 10px 60px;
+}
+
+.conditions-info h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 821px;
+    line-height: 1.2;
+    font-size: 40px;
+    color: #A0C74F;
+}
+
+.conditions-desc {
+    margin-top: -15px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    width: 821px;
+}
+
+.conditions-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 359px) {
+    .conditions-info {
+        width: 250px;
+        height: 1020px;
+        border-radius: 40px;
+        padding: 32px 0px;
+        gap: 10px;
+    }
+    
+    .conditions-info h2 {
+        width: 230px;
+        font-size: 20px;
+        margin: 20px 20px 20px 30px;
+    }
+    
+    .conditions-desc {
+        font-size: 13px;
+        width: 230px;
+        margin-left: 10px;
+    }
+    
+    .conditions-cards {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 590px) and (min-width: 360px) {
+    .conditions-info {
+        width: 310px;
+        height: 1100px;
+        border-radius: 40px;
+        padding: 32px 0px;
+        gap: 10px;
+    }
+    
+    .conditions-info h2 {
+        margin-top: 40px;
+        width: 278px;
+        font-size: 22px;
+    }
+    
+    .conditions-desc {
+        font-size: 16px;
+        width: 278px;
+    }
+    
+    .conditions-cards {
+        gap: 10px;
+    }
+}
+
+@media ( max-width: 912px ) and (min-width: 591px) {
+    .conditions-info {
+        width: 570px;
+        height: 717px;
+        border-radius: 40px;
+        padding: 32px 0px;
+        gap: 10px;
+    }
+    
+    .conditions-info h2 {
+        width: 466px;
+        font-size: 32px;
+        margin: 20px 0 24px;
+    }
+    
+    .conditions-desc {
+        font-size: 16px;
+        width: 466px;
+        margin: 0 0 24px;
+    }
+    
+    .conditions-cards {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 913px) {
+    .conditions-info {
+        width: 870px;
+        height: 500px;
+        border-radius: 40px;
+        padding: 32px 0px;
+        gap: 10px;
+    }
+    
+    .conditions-info h2 {
+        width: 790px;
+        font-size: 32px;
+        margin: 20px 0 24px;
+    }
+    
+    .conditions-desc {
+        font-size: 16px;
+        width: 790px;
+        margin: 0 0 24px;
+    }
+    
+    .conditions-cards {
+        gap: 15px;
+    }
+}

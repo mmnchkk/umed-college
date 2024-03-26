@@ -1,0 +1,151 @@
+.circle-employees {
+  background-image: url("../../img/employeesImg/Сircle.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 10%;
+  background-color: #fafafa;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 1480px;
+}
+
+.circle-employees-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+  padding-bottom: 50px;
+}
+
+.circle-employees-title p {
+  width: 600px;
+  line-height: 1.27;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  color: #363636;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.circle-employees-title span {
+  color: #5e419d;
+}
+
+.circle-employees-card {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.circle-employees-footer {
+  padding-top: 100px;
+}
+
+.circle-employees-footer p {
+  color: #363636;
+  font-size: 12px;
+}
+
+@media (max-width: 359px) {
+  .circle-employees {
+    background-image: none;
+    padding: 0 10px 0 10px;
+    height: 1850px;
+  }
+
+  .circle-employees-title {
+    padding-top: 100px;
+  }
+
+  .circle-employees-title p {
+    width: 258px;
+    font-size: 16px;
+    margin-bottom: -100px;
+    margin-top: 10px;
+  }
+
+  .circle-employees-card {
+    padding-top: 35px;
+  }
+
+  .circle-employees-footer {
+    padding-top: 30px;
+  }
+
+  .circle-employees-footer p {
+    width: 260px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 661px) {
+  .circle-employees {
+    background-image: none;
+    padding: 0 10px 0 10px;
+    height: 1580px;
+  }
+
+  .circle-employees-title {
+    padding-top: 100px;
+  }
+
+  .circle-employees-title p {
+    width: 258px;
+    font-size: 16px;
+    margin-bottom: -150px;
+    margin-top: 50px;
+    padding-top: 80px;
+  }
+
+  .circle-employees-card {
+    padding-top: 60px;
+  }
+
+  .circle-employees-footer {
+    padding-top: 30px;
+  }
+
+  .circle-employees-footer p {
+    width: 260px;
+  }
+}
+
+@media (min-width: 662px) and (max-width: 912px) {
+  .circle-employees {
+    margin-top: -300px;
+    background-size: 600px;
+    background-position: 50% 25%;
+    height: 1680px;
+  }
+
+  .circle-employees-title p {
+    padding-top: 20px;
+    margin-bottom: -80px;
+    width: 300px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 913px) and (max-width: 1023px) {
+  .circle-employees {
+    background-size: 850px;
+    background-position: 50% 27%;
+  }
+
+  .circle-employees-title p {
+    width: 500px;
+    font-size: 26px;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .circle-employees {
+    background-size: 950px;
+    background-position: 50% 27%;
+  }
+
+  .circle-employees-title p {
+    width: 500px;
+    font-size: 26px;
+  }
+}

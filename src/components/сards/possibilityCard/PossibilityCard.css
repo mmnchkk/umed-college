@@ -1,0 +1,78 @@
+.possibility-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 30px;
+    padding: 20px 20px 20px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+
+.possibility-card:hover {
+    cursor: pointer;
+    transform: scale(1.05) perspective(1px);
+}
+
+.possibility-card p {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+}
+
+.possibility-card img {
+    width: 60px;
+    height: 84px;
+}
+
+@media (max-width: 359px) {
+    .possibility-card {
+        width: 190px;
+        height: 80px;
+        border-radius: 20px;
+        padding: 20px 18px 20px 24px;
+    }
+
+    .possibility-card p {
+        width: 220px;
+        height: 20px;
+    }
+
+    .possibility-card img {
+        width: 60px;
+        height: 84px;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 360px) {
+    .possibility-card {
+        width: 230px;
+        height: 80px;
+        border-radius: 20px;
+        padding: 20px 18px 20px 24px;
+    }
+
+    .possibility-card p {
+        width: 220px;
+        height: 20px;
+    }
+}
+
+@media ( max-width: 912px ) and (min-width: 431px) {
+    .possibility-card {
+        width: 190px;
+        height: 90px;
+        border-radius: 25px;
+        padding: 20px 18px 20px 24px;
+    }
+
+    .possibility-card p {
+        width: 220px;
+        height: 20px;
+    }
+}
+
+
+
